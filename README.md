@@ -2,9 +2,9 @@
 
 <h2>All the projects are built using HTML5, CSS & Vanilla JavaScript.</h2>
 
-<a href="" target="_blank"><img src="50projects.png" alt="50projects" style="max-width: 100%;"></a>
+<a href="https://50-html-css-vanillajavascript-projects.netlify.app/" target="_blank"><img src="50projects.png" alt="50projects" style="max-width: 100%;"></a>
 
-<h3>You can find the projects <a href="">here<a>.</h3>
+<h3>You can find the projects <a href="https://50-html-css-vanillajavascript-projects.netlify.app/" target="_blank">here<a>.</h3>
 
 <div>
 <ol>
