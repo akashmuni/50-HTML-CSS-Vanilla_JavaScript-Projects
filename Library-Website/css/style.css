@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.navbar-dark .navbar-brand:hover {
+    color: #FFEFBC !important;
+}
+
+.form-control {
+    background-color: #FFFDF5 !important;
+}
+
+.btn-primary {
+    color: #111 !important;
+    background-color: #FFF0BC !important;
+    border-color: #FFFFFE !important;
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover{
+    background-color: #FFF3CC !important;
+}
+
+.btn-outline-success{
+    color: #FFFBEF;
+    border-color: #FFFBEF;
+}
+
+.btn-outline-success:hover{
+    background-color: #FFEFBB;
+    color: black;
+
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #FFEFBC;
+}

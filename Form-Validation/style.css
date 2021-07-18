@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%) !important;
+    min-height: 100vh !important;
+}
+
+.btn-primary {
+    color: black;
+    background-color: skyblue !important;
+    border-color: #B4E2F8;
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover{
+    background-color: #E9ECEF !important;
+    color: black !important;
+    border: 1px solid skyblue;
+}

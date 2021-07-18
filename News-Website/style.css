@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #d9a7c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    display: block;
+    justify-content: space-around;
+}
+
+.accordion-button {
+    
+    background-color: #FFFCF4;
+    box-shadow: 2px ​10px 10px rgba(0, 0, 0, 0.2);
+}
+.navbar-dark .navbar-brand:hover {
+    color: #FDF7DB;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #FDF7DB;
+}
+.btn-outline-success {
+    color: #FDF7DB;
+    border-color: #FDF7DB;
+}
+.btn-outline-success:hover{
+    background-color: #D44B8A;
+} 
+
+.me-2 {
+    background-color: #FFFCF4;
+}
+
+.bg-secondary {
+    background-color: #D44B8A!important;
+    color: #FEF9DB;
+}
+footer{
+    display: flex;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    margin-top: 40px;
+}
+.accordion-body {
+    background-color: #ffebf2;
+}
+b, strong {
+    color: #D44B8A;
+}
+span{
+    justify-content: center;
+    padding: 15px;
+    color: #FEF9DB;
+}

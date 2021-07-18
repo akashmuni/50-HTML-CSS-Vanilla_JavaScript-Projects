@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Welcome to Bookyberg Travels</title>
+  </head>
+  <body>
+    <div id="success" class="alert alert-success alert-dismissible fade my-1" role="alert">
+        <strong>Success!</strong> Your Travel request has been sucessfully submitted.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    <div id="failure" class="alert alert-danger alert-dismissible fade my-1 " role="alert">
+        <strong>Error!</strong> Your Travel request failed to submit.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <div class="container ">
+      <h1>Bookyberg Travels</h1>
+    <form name= "contact-form" class="row g-3 needs-validation " novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Username</label>
+          <input type="text" class="form-control " id="name" placeholder="Enter your Name" required>
+          <small id="namevalid" class=" invalid-feedback">Your username must be 2-20 characters long and should not start with a number.</small>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Email</label>
+            <input type="text" class="form-control " id="email" placeholder="Enter Your Email" required>
+            <small class="invalid-feedback">
+              Please provide a valid email address.
+            </small>
+            <div class="valid-feedback">
+                Looks good!
+              </div>
+          </div>
+        <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Phone Number</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">+91</span>
+            <input type="phone" class="form-control " id="phone" placeholder="Enter Your Phone Number" required>
+            <div class="invalid-feedback">
+              Please provide a valid phone number. Your phone number must be 10 digit long.
+            </div>
+            <div class="valid-feedback">
+                Looks good!
+              </div>
+          </div>
+          </div>
+          <div class="col-md-6">
+            <label for="car" class="form-label">Select Your Car</label>
+            <select type="text" class="form-control" id="car" required>
+                <option value="">Omni</option>
+                <option value="">Maruti 800</option>
+                <option value="">Ford</option>
+                <option value="">Innova</option>
+                <option value="">Audi A4</option>
+                </select>
+            <div class="invalid-feedback">
+              Please select a car.
+            </div>
+          </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">State</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Any other message...</label>
+          </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button id="submit" class="btn btn-primary" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+    <script src="index.js"></script>
+  </body>
+</html>

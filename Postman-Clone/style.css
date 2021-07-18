@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+    min-height: 100vh;
+}
+
+input{
+    background-color: #f5e2e5 !important;
+}
+textarea{
+    background-color: #f5e2e5 !important;
+
+}
+
+.btn-primary {
+    color: white;
+    background-color: #FDCFBB;
+    border-color: #F9A6AB;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.btn-primary:hover {
+    color: white;
+    background-color: #F9A6AB;
+    border-color: #FCC0B5;
+}
+.navbar-dark .navbar-brand:hover {
+    color: #F9A6AB;
+}

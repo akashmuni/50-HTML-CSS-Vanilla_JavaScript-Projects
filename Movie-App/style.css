@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #22254b;
+}
+header{
+    background-color: #373b69;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.8rem;
+}
+.search{
+    border-radius: 50px;
+    font-family: inherit;
+    padding: 0.3rem 1rem;
+    background-color: transparent;
+    border: 2px solid #22254b;
+    font-size: 1rem;
+    color: white;
+}
+.search::placeholder{
+    color: #7378c5;
+}
+
+.search:focus{
+    outline: none;
+    background-color: #22254b;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+
+.movie{
+    border-radius: 3px;
+    background-color: #373b69;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    width: 180px;
+    margin: 1rem;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.movie img{
+    width: 100%;
+}
+
+.movie-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #eee;
+    letter-spacing: 0.5px;
+    padding: 0.5rem 0.5rem 0.5rem;
+    
+}
+
+.movie-info h3{
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.movie-info span{
+    background-color: #22254b;
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+    font-weight: bold;
+}
+.movie-info .green{
+    color: rgb(39, 173, 39);
+}
+.movie-info .orange{
+    color: orange;
+}
+.movie-info .red{
+    color: red;
+}
+
+.overview{
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    right: 0;
+    font-size: 10px;
+    max-height: 100%;
+    overflow: scroll;
+    background-color: #22254bc7;
+    padding: 1rem;
+    transform: translateY(100%);
+    transition: transform 0.4s ease-in;
+    color: white;
+    
+}
+
+.overview h4{
+    margin-top: 0%;
+}
+
+.movie:hover .overview{
+    transform: translateY(0);
+}
+h1{
+    margin: 0;
+    position: absolute;
+    left: 10px;
+    font-size: 1.5rem;
+    justify-content: center;
+    color: #eee;
+}
+
+
