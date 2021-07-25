@@ -58,6 +58,7 @@ h1{
 footer{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #000000;
     align-items: center;
