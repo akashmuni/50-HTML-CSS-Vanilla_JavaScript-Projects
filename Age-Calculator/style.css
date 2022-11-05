@@ -76,3 +76,17 @@ p{
     color: #707070;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 900px){
+    .container {
+        width: 95%;
+        min-height: 100%;
+    }
+    .outputs-wrapper div{
+        height: 50px;
+        width: 50px;
+    }
+    .inputs-wrapper{
+        padding: 30px 10px;
+    }
+}
